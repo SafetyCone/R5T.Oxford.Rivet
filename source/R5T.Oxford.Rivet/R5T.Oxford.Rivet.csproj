@@ -4,4 +4,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Ostrogothia.Rivet\source\R5T.Ostrogothia.Rivet\R5T.Ostrogothia.Rivet.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Oxford.Base\source\R5T.Oxford.Base\R5T.Oxford.Base.csproj" />
+  </ItemGroup>
 </Project>
