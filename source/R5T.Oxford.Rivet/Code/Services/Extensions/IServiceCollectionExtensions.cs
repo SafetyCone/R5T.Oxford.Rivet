@@ -12,7 +12,7 @@ namespace R5T.Oxford.Rivet
         /// <summary>
         /// Adds the <see cref="RivetOrganizationProvider"/> implementation of <see cref="IOrganizationProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
         /// </summary>
-        public static IServiceCollection AddRivetOrganizationProvider(this IServiceCollection services)
+        public static IServiceCollection AddDefaultRivetOrganizationProvider(this IServiceCollection services)
         {
             services.AddSingleton<IOrganizationProvider, RivetOrganizationProvider>();
 
@@ -22,9 +22,9 @@ namespace R5T.Oxford.Rivet
         /// <summary>
         /// Adds the <see cref="RivetOrganizationProvider"/> implementation of <see cref="IOrganizationProvider"/> as a <see cref="ServiceLifetime.Singleton"/>.
         /// </summary>
-        public static ServiceAction<IOrganizationProvider> AddRivetOrganizationProviderAction(this IServiceCollection services)
+        public static ServiceAction<IOrganizationProvider> AddDefaultRivetOrganizationProviderAction(this IServiceCollection services)
         {
-            var serviceAction = new ServiceAction<IOrganizationProvider>(() => services.AddRivetOrganizationProvider());
+            var serviceAction = new ServiceAction<IOrganizationProvider>(() => services.AddDefaultRivetOrganizationProvider());
             return serviceAction;
         }
     }
