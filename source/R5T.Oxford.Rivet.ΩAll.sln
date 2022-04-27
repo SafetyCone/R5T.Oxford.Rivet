@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Oxford.Rivet.Constructi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Oxford.Rivet.Testing", "R5T.Oxford.Rivet.Testing\R5T.Oxford.Rivet.Testing.csproj", "{8B68E1DA-26CC-40C9-AD04-390103314F06}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{37AC7C6D-1771-4199-B31F-569DF47A6B1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{DF8F40EA-8E26-4260-90F8-5457CDB394F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{8B68E1DA-26CC-40C9-AD04-390103314F06}.Release|x64.Build.0 = Release|Any CPU
 		{8B68E1DA-26CC-40C9-AD04-390103314F06}.Release|x86.ActiveCfg = Release|Any CPU
 		{8B68E1DA-26CC-40C9-AD04-390103314F06}.Release|x86.Build.0 = Release|Any CPU
+		{DF8F40EA-8E26-4260-90F8-5457CDB394F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8F40EA-8E26-4260-90F8-5457CDB394F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8F40EA-8E26-4260-90F8-5457CDB394F8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DF8F40EA-8E26-4260-90F8-5457CDB394F8}.Debug|x64.Build.0 = Debug|Any CPU
+		{DF8F40EA-8E26-4260-90F8-5457CDB394F8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DF8F40EA-8E26-4260-90F8-5457CDB394F8}.Debug|x86.Build.0 = Debug|Any CPU
+		{DF8F40EA-8E26-4260-90F8-5457CDB394F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8F40EA-8E26-4260-90F8-5457CDB394F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF8F40EA-8E26-4260-90F8-5457CDB394F8}.Release|x64.ActiveCfg = Release|Any CPU
+		{DF8F40EA-8E26-4260-90F8-5457CDB394F8}.Release|x64.Build.0 = Release|Any CPU
+		{DF8F40EA-8E26-4260-90F8-5457CDB394F8}.Release|x86.ActiveCfg = Release|Any CPU
+		{DF8F40EA-8E26-4260-90F8-5457CDB394F8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF8F40EA-8E26-4260-90F8-5457CDB394F8} = {37AC7C6D-1771-4199-B31F-569DF47A6B1F}
 	EndGlobalSection
 EndGlobal
